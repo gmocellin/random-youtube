@@ -2,7 +2,6 @@ import pytube
 import random
 import shutil
 from moviepy.editor import VideoFileClip, AudioFileClip
-from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 import argparse
 
 TIME_LENGTH = 60
