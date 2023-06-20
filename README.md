@@ -1,4 +1,4 @@
-# random-youtube-audio
+# random-youtube
 Tool for downloading a random youtube video/audio
 
 # Instructions
