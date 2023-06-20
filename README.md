@@ -2,6 +2,9 @@
 Tool for downloading a random youtube video/audio
 
 # Instructions
+Install python
+`https://www.python.org/downloads/`
+
 Install requirements
 `pip install -r requirements.txt`
 
@@ -14,7 +17,7 @@ Example
 Options 
 ```
 -v "{Youtube Link}"     : Link for youtube video
--v "{Youtube Link}"     : Link for youtube playlist. This option will get a random video on the playlist
+-pl "{Youtube Playlist}"     : Link for youtube playlist. This option will get a random video on the playlist
 -a                      : Download audio only
 -c                      : Crop the video/audio
 -cr                     : Crop a random portion of the video/audio
