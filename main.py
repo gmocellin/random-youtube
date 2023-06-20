@@ -18,8 +18,6 @@ def crop_video(title, length, crop_length = TIME_LENGTH, crop_start = 0, crop_ra
         random_start = random.randint(0,max_length)
         clip = clip.subclip(random_start, random_start + crop_length)
     else:
-        print('LENGTH: ', length)
-        print('LENGTH: ', crop_length)
         clip = clip.subclip(crop_start, crop_length)
 
     filename = f'{title}.mp4'
@@ -50,7 +48,6 @@ def download_video(video_url):
     length = video.length
     video = video.streams.get_highest_resolution()
     print('Downloading ' + video.title + '...')
-    print('LENGTH: ', length)
 
     try:
         video.download(VIDEOS_FOLDER, f'{video.title}.mp4')
